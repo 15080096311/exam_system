@@ -19,6 +19,8 @@ namespace WindowsFormsApplication1
         private string[] single_question_answer;
         private string[] multiple_question;
         private int[] multiple_question_answer;
+        private string path_single;
+        private string path_multiple;
         public Form2()
         {
             InitializeComponent();
@@ -33,22 +35,19 @@ namespace WindowsFormsApplication1
             single_question_answer = new string[N];
             multiple_question = new string[N];
             multiple_question_answer = new int[N];
+            path_single = "";
+            path_multiple ="";    
             try
             {
                 FileStream file_single_question, file_multiple_question;
-                file_single_question = new FileStream("C://Users//Administrator//Desktop//c#//考试系统//dxt1.txt", FileMode.Open, FileAccess.Read);
-                file_multiple_question = new FileStream("C://Users//Administrator//Desktop//c#//考试系统//duoxt1.txt", FileMode.Open, FileAccess.Read);
+                file_single_question = new FileStream("...\dxt1.txt", FileMode.Open, FileAccess.Read);
+                file_multiple_question = new FileStream("...\duoxt1.txt", FileMode.Open, FileAccess.Read);
                 StreamReader read_single, read_multiple;
                 read_single = new StreamReader(file_single_question, Encoding.Default);
                 read_multiple = new StreamReader(file_multiple_question, Encoding.Default);
                 for (j = 0; j < N; j++)
                 {
-                    /*s = r.ReadLine();
-                    s = s + "\r\n" + r.ReadLine();
-                    dxt[j] = s;
-                    dxt1[j] = r.ReadLine();
-                    */
-                    //读题目
+                   
                     cur_question = read_single.ReadLine();
                     cur_question = cur_question + "\r\n" + read_single.ReadLine();
                     single_question[j] = cur_question;
@@ -59,11 +58,7 @@ namespace WindowsFormsApplication1
                 }
                 for (j = 0; j < N; j++)
                 {
-                    /* s  = r1.ReadLine();
-                    s = s + "\r\n" + r1.ReadLine();
-                    duoxt[j] = s;
-                    duoxt1[j] = Convert.ToInt16(r1.ReadLine());
-                    */
+                    
                     cur_question = read_multiple.ReadLine();
                     cur_question = cur_question + "\r\n" + read_multiple.ReadLine();
                     multiple_question[j] = cur_question;
@@ -96,6 +91,19 @@ namespace WindowsFormsApplication1
         private void tabPage1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+               
+            }
         }
     }
 }

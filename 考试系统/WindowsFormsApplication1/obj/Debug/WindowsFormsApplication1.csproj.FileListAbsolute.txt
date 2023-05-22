@@ -27,3 +27,13 @@ C:\Users\Administrator\Desktop\c#\考试系统\WindowsFormsApplication1\obj\Debu
 C:\Users\Administrator\Desktop\c#\考试系统\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
 C:\Users\Administrator\Desktop\c#\考试系统\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Administrator\Desktop\c#\考试系统\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Administrator\Downloads\exam_system-main\考试系统\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Administrator\Downloads\exam_system-main\考试系统\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Administrator\Downloads\exam_system-main\考试系统\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Administrator\Downloads\exam_system-main\考试系统\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\exam_system-main\考试系统\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Administrator\Downloads\exam_system-main\考试系统\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\Administrator\Downloads\exam_system-main\考试系统\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Administrator\Downloads\exam_system-main\考试系统\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Administrator\Downloads\exam_system-main\考试系统\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Administrator\Downloads\exam_system-main\考试系统\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
